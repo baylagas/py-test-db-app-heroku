@@ -15,10 +15,10 @@ class PybaDatabase:
         self.port = 3307
         self.user = "root"
         self.password = "root"
-        self.database = "testdb"
+        self.database = "testdb"""
 
         self.connection = self.createConnection()
-        self.cursor = self.createCursor() """
+        self.cursor = self.createCursor()
 
     def createConnection(self):
         con = pymysql.connect(
